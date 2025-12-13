@@ -1,10 +1,19 @@
+
 #include <stdio.h>
 
 int main() {
-    // Your code starts here
-    printf("Hello World!");
-    printf("Ashish Uraw ");
-    
+    int a, b, sum;
 
-    return 0; // Successful program exit
+    printf("Enter first number: ");
+    scanf("%d", &a);
+
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    sum = a + b;
+
+    printf("Sum = %d\n", sum);
+
+    return 0;
 }
+
